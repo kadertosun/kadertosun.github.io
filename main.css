@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #ffff;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/*navbar section*/
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}/*
+#navbar ul li{
+    font-size: 23px;
+    font-style: bold;
+}*/
+#navbar ul li a{
+    padding:0.5rem;
+}
+#navbar ul li a:hover{
+    background: cornflowerblue;
+    border-radius: 4px;
+}
+/*Home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    border-bottom: 1px solid grey;
+
+}
+#home img{
+    max-width: 100px;
+    height: auto;
+    border-radius: 100px;
+
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+
+}
+#home a{
+    margin-top: 1.25rem;
+    background: cornflowerblue;
+    padding:0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+    color: rgb(191, 199, 214);
+    background: white;
+    border: 0.5px solid  cornflowerblue;
+}
+#Projeler{
+    color: white;
+    padding: 1rem;
+}
+#Projeler .items
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Projeler .items .item
+{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#Projeler .items .item:hover
+{
+    color: cornflowerblue;
+    opacity: 0.6;
+}
+/*Proje tanım alanı*/
+#courses{
+    color: black;
+    padding: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course
+{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.courses .course .course-image img{
+    border-radius: 5px;
+}
+.courses .course .course-image img:hover{
+    color: violet;
+    opacity: 0.6;
+    border-radius: 5px;
+    
+}
+.courses .course .course-image span{
+    background: violet;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left:0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+    font-style: bold;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.5rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .rating{
+    font-size: 0.5;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+#contect{
+    color: white;
+    padding: 1rem;
+}
+#contect .contect-from{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contect .contect-from ul{
+    list-style-type:none;
+    display: flex;
+    margin-top: 1rem;
+    align-self:center;
+}
+#contect .contect-from ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contect .contect-from ul li a:hover{
+    opacity: 0.8;
+}
+

@@ -1,0 +1,74 @@
+/**/
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/*Renkler*/
+.bg-dark-blue{
+    background: darkblue;
+}
+.bg-light-blue{
+    background: blue;
+}
+/*container*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/*Buttons*/
+.btn{
+    margin-top: 1.25rem;
+    padding:0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background: blue;
+}
+.btn-primary:hover{
+    color:blue;
+    background: white;
+    border: 0.5px solid rgb(28, 15, 214);
+}
+.btn-dark{
+    background: #333;
+    
+}
+.btn-dark:hover{
+    color: #333;
+    background: white;
+    border: 0.5px solid#333;
+}
+.btn-block{
+    width: 100%;
+     text-align: center;
+}
+/*Form*/
+.form-group{
+    padding: 0.25rem 0;
+
+}
+.form-group label{
+    display: block;
+}
+.form-conrtol{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize : none;
+    border-radius: 5px;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
